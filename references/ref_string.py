@@ -73,3 +73,7 @@ print("\\usr\\bin\\python3")
 liststring = ['111','112','111111','11333']
 liststring.sort()
 print(liststring) #길이 기준이 아니라 내부 char 비교
+
+#리스트를 문자열로 합치기
+listtest = ["a", "B"]
+print(''.join(listtest))
