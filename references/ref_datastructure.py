@@ -41,6 +41,7 @@ dicttest.setdefault(2, 0) #2 key 가 있으면 넘어가고 없으면 value 0 �
 
 from collections import defaultdict
 dicttest2 = defaultdict(int) # 없는 경우 value 0으로 세팅
+dicttest2 = defaultdict(list) # 없는 경우 value []로 세팅
 
 print(dicttest)
 print(dicttest[32]) #key값으로 접근, 없으면 에러 리턴
