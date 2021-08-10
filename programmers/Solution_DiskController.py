@@ -46,9 +46,9 @@ def solution2(jobs):
 
 if __name__ == "__main__":
     start = time.time()  # 시작 시간 저장
-    job1 = [[0, 3], [1, 9], [2, 6]]
-    print("my ans : ", solution(job1), " | ans : 9", " time : ", time.time() - start)
+    job1 = [[500, 3], [1, 9], [2, 6]]
+    print("my ans : ", solution(job1), " | ans : 8", " time : ", time.time() - start)
 
     start = time.time()  # 시작 시간 저장
-    job1 = [[0, 3], [1, 9], [2, 6]]
-    print("my ans : ", solution2(job1), " | ans : 9", " time : ", time.time() - start)
+    job1 = [[500, 3], [1, 9], [2, 6]]
+    print("my ans : ", solution2(job1), " | ans : 8", " time : ", time.time() - start)
